@@ -74,7 +74,3 @@ docker run --rm -v "$(pwd)/output:/app/output" gmaps-scraper --url "https://www.
 - **Category**: Main Google Maps category
 - **Address**: Text string form
 - **Google Maps URL**: Direct Place Listing Link
-
-## Warning
-
-Google Maps blocks automated bot scraping very aggressively. Use randomized delays (built-in) and avoid extreme volumes of search queries in tight loops. Use responsibly.
